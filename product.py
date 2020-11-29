@@ -5,6 +5,6 @@ while True:
 		break
 	price = input('請輸入商品價格: ')
 	products.append([name, price]) 
-print(products)
 
-products[0][0]
+for product in products:
+	print(product[0], '的價格是', product[1])
